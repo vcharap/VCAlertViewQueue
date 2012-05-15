@@ -186,11 +186,6 @@ static NSString *kPriorityKey = @"PriorityKey";
     [self.defaultPriorityAlerts removeAllObjects];
 }
 
--(void)removeCurrentAlert
-{
-    
-}
-
 #pragma mark Private Methods
 
 -(void)addAlertOnMainThread:(NSDictionary *)arguments

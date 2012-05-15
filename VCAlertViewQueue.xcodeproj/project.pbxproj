@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		568F2FBB151C50AD00C14A85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568F2FBA151C50AD00C14A85 /* UIKit.framework */; };
+		568F2FBD151C50AD00C14A85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568F2FBC151C50AD00C14A85 /* Foundation.framework */; };
+		568F2FBF151C50AD00C14A85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568F2FBE151C50AD00C14A85 /* CoreGraphics.framework */; };
+		568F2FC5151C50AD00C14A85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 568F2FC3151C50AD00C14A85 /* InfoPlist.strings */; };
+		568F2FC7151C50AD00C14A85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 568F2FC6151C50AD00C14A85 /* main.m */; };
+		568F2FCB151C50AD00C14A85 /* VCAlertViewQueueAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568F2FCA151C50AD00C14A85 /* VCAlertViewQueueAppDelegate.m */; };
+		568F2FCE151C50AD00C14A85 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568F2FCC151C50AD00C14A85 /* MainWindow.xib */; };
+		568F2FD1151C50AD00C14A85 /* VCAlertViewQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568F2FD0151C50AD00C14A85 /* VCAlertViewQueueViewController.m */; };
+		568F2FD4151C50AD00C14A85 /* VCAlertViewQueueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568F2FD2151C50AD00C14A85 /* VCAlertViewQueueViewController.xib */; };
+		568F2FDC151C50D300C14A85 /* VCAlertViewQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 568F2FDB151C50D300C14A85 /* VCAlertViewQueue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		568F2FB6151C50AD00C14A85 /* VCAlertViewQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCAlertViewQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		568F2FBA151C50AD00C14A85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		568F2FBC151C50AD00C14A85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		568F2FBE151C50AD00C14A85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		568F2FC2151C50AD00C14A85 /* VCAlertViewQueue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VCAlertViewQueue-Info.plist"; sourceTree = "<group>"; };
+		568F2FC4151C50AD00C14A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		568F2FC6151C50AD00C14A85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		568F2FC8151C50AD00C14A85 /* VCAlertViewQueue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VCAlertViewQueue-Prefix.pch"; sourceTree = "<group>"; };
+		568F2FC9151C50AD00C14A85 /* VCAlertViewQueueAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCAlertViewQueueAppDelegate.h; sourceTree = "<group>"; };
+		568F2FCA151C50AD00C14A85 /* VCAlertViewQueueAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCAlertViewQueueAppDelegate.m; sourceTree = "<group>"; };
+		568F2FCD151C50AD00C14A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		568F2FCF151C50AD00C14A85 /* VCAlertViewQueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCAlertViewQueueViewController.h; sourceTree = "<group>"; };
+		568F2FD0151C50AD00C14A85 /* VCAlertViewQueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCAlertViewQueueViewController.m; sourceTree = "<group>"; };
+		568F2FD3151C50AD00C14A85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VCAlertViewQueueViewController.xib; sourceTree = "<group>"; };
+		568F2FDA151C50D300C14A85 /* VCAlertViewQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAlertViewQueue.h; sourceTree = "<group>"; };
+		568F2FDB151C50D300C14A85 /* VCAlertViewQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAlertViewQueue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		568F2FB3151C50AD00C14A85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568F2FBB151C50AD00C14A85 /* UIKit.framework in Frameworks */,
+				568F2FBD151C50AD00C14A85 /* Foundation.framework in Frameworks */,
+				568F2FBF151C50AD00C14A85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		568F2FAB151C50AD00C14A85 = {
+			isa = PBXGroup;
+			children = (
+				568F2FC0151C50AD00C14A85 /* VCAlertViewQueue */,
+				568F2FB9151C50AD00C14A85 /* Frameworks */,
+				568F2FB7151C50AD00C14A85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		568F2FB7151C50AD00C14A85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568F2FB6151C50AD00C14A85 /* VCAlertViewQueue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		568F2FB9151C50AD00C14A85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				568F2FBA151C50AD00C14A85 /* UIKit.framework */,
+				568F2FBC151C50AD00C14A85 /* Foundation.framework */,
+				568F2FBE151C50AD00C14A85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		568F2FC0151C50AD00C14A85 /* VCAlertViewQueue */ = {
+			isa = PBXGroup;
+			children = (
+				568F2FC9151C50AD00C14A85 /* VCAlertViewQueueAppDelegate.h */,
+				568F2FCA151C50AD00C14A85 /* VCAlertViewQueueAppDelegate.m */,
+				568F2FCC151C50AD00C14A85 /* MainWindow.xib */,
+				568F2FCF151C50AD00C14A85 /* VCAlertViewQueueViewController.h */,
+				568F2FD0151C50AD00C14A85 /* VCAlertViewQueueViewController.m */,
+				568F2FD2151C50AD00C14A85 /* VCAlertViewQueueViewController.xib */,
+				568F2FDA151C50D300C14A85 /* VCAlertViewQueue.h */,
+				568F2FDB151C50D300C14A85 /* VCAlertViewQueue.m */,
+				568F2FC1151C50AD00C14A85 /* Supporting Files */,
+			);
+			path = VCAlertViewQueue;
+			sourceTree = "<group>";
+		};
+		568F2FC1151C50AD00C14A85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				568F2FC2151C50AD00C14A85 /* VCAlertViewQueue-Info.plist */,
+				568F2FC3151C50AD00C14A85 /* InfoPlist.strings */,
+				568F2FC6151C50AD00C14A85 /* main.m */,
+				568F2FC8151C50AD00C14A85 /* VCAlertViewQueue-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		568F2FB5151C50AD00C14A85 /* VCAlertViewQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 568F2FD7151C50AD00C14A85 /* Build configuration list for PBXNativeTarget "VCAlertViewQueue" */;
+			buildPhases = (
+				568F2FB2151C50AD00C14A85 /* Sources */,
+				568F2FB3151C50AD00C14A85 /* Frameworks */,
+				568F2FB4151C50AD00C14A85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCAlertViewQueue;
+			productName = VCAlertViewQueue;
+			productReference = 568F2FB6151C50AD00C14A85 /* VCAlertViewQueue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		568F2FAD151C50AD00C14A85 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 568F2FB0151C50AD00C14A85 /* Build configuration list for PBXProject "VCAlertViewQueue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 568F2FAB151C50AD00C14A85;
+			productRefGroup = 568F2FB7151C50AD00C14A85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				568F2FB5151C50AD00C14A85 /* VCAlertViewQueue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		568F2FB4151C50AD00C14A85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568F2FC5151C50AD00C14A85 /* InfoPlist.strings in Resources */,
+				568F2FCE151C50AD00C14A85 /* MainWindow.xib in Resources */,
+				568F2FD4151C50AD00C14A85 /* VCAlertViewQueueViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		568F2FB2151C50AD00C14A85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568F2FC7151C50AD00C14A85 /* main.m in Sources */,
+				568F2FCB151C50AD00C14A85 /* VCAlertViewQueueAppDelegate.m in Sources */,
+				568F2FD1151C50AD00C14A85 /* VCAlertViewQueueViewController.m in Sources */,
+				568F2FDC151C50D300C14A85 /* VCAlertViewQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		568F2FC3151C50AD00C14A85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568F2FC4151C50AD00C14A85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		568F2FCC151C50AD00C14A85 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568F2FCD151C50AD00C14A85 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		568F2FD2151C50AD00C14A85 /* VCAlertViewQueueViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				568F2FD3151C50AD00C14A85 /* en */,
+			);
+			name = VCAlertViewQueueViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		568F2FD5151C50AD00C14A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		568F2FD6151C50AD00C14A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		568F2FD8151C50AD00C14A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCAlertViewQueue/VCAlertViewQueue-Prefix.pch";
+				INFOPLIST_FILE = "VCAlertViewQueue/VCAlertViewQueue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		568F2FD9151C50AD00C14A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VCAlertViewQueue/VCAlertViewQueue-Prefix.pch";
+				INFOPLIST_FILE = "VCAlertViewQueue/VCAlertViewQueue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		568F2FB0151C50AD00C14A85 /* Build configuration list for PBXProject "VCAlertViewQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568F2FD5151C50AD00C14A85 /* Debug */,
+				568F2FD6151C50AD00C14A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		568F2FD7151C50AD00C14A85 /* Build configuration list for PBXNativeTarget "VCAlertViewQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				568F2FD8151C50AD00C14A85 /* Debug */,
+				568F2FD9151C50AD00C14A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 568F2FAD151C50AD00C14A85 /* Project object */;
+}
